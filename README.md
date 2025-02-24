@@ -23,7 +23,7 @@ Logout functionality
 
 Setup Instructions
 1. Clone the Forked Repository
-git clone https://github.com/Troylyw/lumaa-spring-2025-swe.git
+git clone with https://github.com/Troylyw/lumaa-spring-2025-swe.git
 
 2. Setup the Backend
 Navigate to the backend folder:cd backend
