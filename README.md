@@ -37,11 +37,11 @@ DATABASE_URL=postgresql://yiweili@localhost:5432/taskmanager
 Start the backend server: npm start
 The backend should now be running at http://localhost:5001.
 
- Run database migrations: 
- 1. Configure the PostgreSQL database connection in the ormconfig.json 
- 2. Use the typeorm CLI to generate a migration file:
+Run database migrations: 
+1. Configure the PostgreSQL database connection in the ormconfig.json 
+2. Use the typeorm CLI to generate a migration file:
  npx typeorm migration:generate -n CreateUsersTable
- 3. Use the following command to apply the migration to the database:
+3. Use the following command to apply the migration to the database:
  npx typeorm migration:run
 
 
