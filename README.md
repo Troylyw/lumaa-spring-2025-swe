@@ -30,7 +30,7 @@ Navigate to the backend folder:cd backend
 Install dependencies:npm install
 Configure environment variables Create a .env file in the backend/ directory:
 PORT=5001
-JWT_SECRET=your_secret_key
+JWT_SECRET=mn8IuAjBdIc7R4FtO4TpJrZU04TEsl01hZRrDZUyxiI=
 DATABASE_URL=postgresql://yiweili@localhost:5432/taskmanager
 Start the backend server: npm start
 The backend should now be running at http://localhost:5001.
