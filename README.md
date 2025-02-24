@@ -22,10 +22,12 @@ Logout functionality
 
 
 Setup Instructions
+
 1. Clone the Forked Repository
 git clone with https://github.com/Troylyw/lumaa-spring-2025-swe.git
 
 2. Setup the Backend
+
 Navigate to the backend folder:cd backend
 Install dependencies:npm install
 Configure environment variables Create a .env file in the backend/ directory:
@@ -41,6 +43,7 @@ The backend should now be running at http://localhost:5001.
  npx typeorm migration:generate -n CreateUsersTable
  3. Use the following command to apply the migration to the database:
  npx typeorm migration:run
+
 
 3. Setup the Frontend
 Navigate to the frontend folder: cd ../frontend
