@@ -78,8 +78,7 @@ Click the "Logout" button in the tasks page
 You should be redirected to the login page
 
 Demo Video
-This is a link to the demo video: https://drive.google.com/file/d/1Kp5G8WwM2VQY4dpHuVeXyPnmXqvvJfpe/view?usp=sharing
+https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-hero-goto
 
-
-Salary Expectations per month
-1600-2000
+Salary Expectations per hour
+20-25/h
