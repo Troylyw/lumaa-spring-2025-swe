@@ -23,6 +23,8 @@ Logout functionality
 
 Setup Instructions
 1. Clone the Forked Repository
+git clone https://github.com/Troylyw/lumaa-spring-2025-swe.git
+
 2. Setup the Backend
 Navigate to the backend folder:cd backend
 Install dependencies:npm install
@@ -33,7 +35,7 @@ DATABASE_URL=postgresql://yiweili@localhost:5432/taskmanager
 Start the backend server: npm start
 The backend should now be running at http://localhost:5001.
 
-4. Setup the Frontend
+3. Setup the Frontend
 Navigate to the frontend folder: cd ../frontend
 Install dependencies: npm install
 Configure environment variables Create a .env file in the frontend/ directory: REACT_APP_API_URL=http://localhost:5001
