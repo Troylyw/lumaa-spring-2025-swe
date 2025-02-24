@@ -78,7 +78,7 @@ Click the "Logout" button in the tasks page
 You should be redirected to the login page
 
 Demo Video
-https://drive.google.com/drive/my-drive?dmr=1&ec=wgc-drive-hero-goto
+https://drive.google.com/file/d/1I0Ijq6l5PVRWthnhkABerlWqhp_3Bdgq/view
 
 Salary Expectations per hour
 20-25/h
