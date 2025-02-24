@@ -1,4 +1,5 @@
 Task Management Application
+
 This is a full-stack Task Management application built with:
 
 Frontend: React + TypeScript
@@ -10,30 +11,27 @@ JWT authentication for secure access
 Task management: Create, Read, Update, Delete (CRUD)
 User-specific tasks (Each user sees only their own tasks)
 Logout functionality
-Modern UI design
+
+
 Setup Instructions
 1. Clone the Forked Repository
 2. Setup the Backend
 Navigate to the backend folder:cd backend
 nstall dependencies:npm install
 Configure environment variables Create a .env file in the backend/ directory:
-PORT=5000
+PORT=5001
 JWT_SECRET=your_secret_key
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-DB_NAME=taskdb
-Run database migrations: npx typeorm migration:run -d dist/ormconfig.js
-Start the backend server: npm run dev
-The backend should now be running at http://localhost:5000.
+DATABASE_URL=postgresql://yiweili@localhost:5432/taskmanager
+
+Start the backend server: npm start
+The backend should now be running at http://localhost:5001.
 
 3. Setup the Frontend
 Navigate to the frontend folder: cd ../frontend
 Install dependencies: npm install
-Configure environment variables Create a .env file in the frontend/ directory: VITE_API_URL=http://localhost:5000
-Start the frontend server: npm run dev
-The frontend should now be running at http://localhost:5173.
+Configure environment variables Create a .env file in the frontend/ directory: REACT_APP_API_URL=http://localhost:5001
+Start the frontend server: npm start
+The frontend should now be running at http://localhost:3000.
 
 API Endpoints
 Authentication
@@ -44,13 +42,14 @@ GET /tasks – Retrieve a list of tasks (optionally filtered by user).
 POST /tasks – Create a new task.
 PUT /tasks/:id – Update a task (e.g., mark as complete, edit text).
 DELETE /tasks/:id – Delete a task.
+
 Testing Instructions
 1. Register a new user
-Open http://localhost:5173/register
+Open http://localhost:3000/register
 Enter a username and password, then click Register
 After successful registration, navigate to the login page
 2. Login
-Open http://localhost:5173
+Open http://localhost:3000
 Enter your username and password
 Click Login
 After successful login, you will be redirected to the Tasks page
@@ -68,15 +67,10 @@ The task should be removed from the list
 6. Logout
 Click the "Logout" button in the tasks page
 You should be redirected to the login page
+
 Demo Video
 This is a link to the demo video: https://drive.google.com/file/d/1Kp5G8WwM2VQY4dpHuVeXyPnmXqvvJfpe/view?usp=sharing
 
-Notes
-Ensure PostgreSQL is running locally and the credentials in .env are correct
-If npx typeorm migration:run fails, ensure the dist/migrations/ folder exists
-Use Postman or cURL to manually test API endpoints
-If any error occurs, check server logs (backend) or browser console (frontend)
-Salary Expectations per month
-800 - 1500
 
-This Task Management Application is now ready. If you face any issues, feel free to open an issue in the forked repository.
+Salary Expectations per month
+1600-2000
