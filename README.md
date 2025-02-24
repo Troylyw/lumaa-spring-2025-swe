@@ -4,7 +4,7 @@ This is a full-stack Task Management application built with:
 
 Frontend: React + TypeScript
 
-Backend: Node.js + Express + PostgreSQL + TypeORM
+Backend: Node.js + Express + PostgreSQL
 
 Authentication: JWT-based authentication
 
