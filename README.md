@@ -3,13 +3,21 @@ Task Management Application
 This is a full-stack Task Management application built with:
 
 Frontend: React + TypeScript
+
 Backend: Node.js + Express + PostgreSQL + TypeORM
+
 Authentication: JWT-based authentication
+
 Features
+
 User registration and login
+
 JWT authentication for secure access
+
 Task management: Create, Read, Update, Delete (CRUD)
+
 User-specific tasks (Each user sees only their own tasks)
+
 Logout functionality
 
 
@@ -17,16 +25,15 @@ Setup Instructions
 1. Clone the Forked Repository
 2. Setup the Backend
 Navigate to the backend folder:cd backend
-nstall dependencies:npm install
+Install dependencies:npm install
 Configure environment variables Create a .env file in the backend/ directory:
 PORT=5001
 JWT_SECRET=your_secret_key
 DATABASE_URL=postgresql://yiweili@localhost:5432/taskmanager
-
 Start the backend server: npm start
 The backend should now be running at http://localhost:5001.
 
-3. Setup the Frontend
+4. Setup the Frontend
 Navigate to the frontend folder: cd ../frontend
 Install dependencies: npm install
 Configure environment variables Create a .env file in the frontend/ directory: REACT_APP_API_URL=http://localhost:5001
@@ -34,6 +41,7 @@ Start the frontend server: npm start
 The frontend should now be running at http://localhost:3000.
 
 API Endpoints
+
 Authentication
 POST /auth/register – Create a new user
 POST /auth/login – Login user, return a token (JWT)
@@ -44,6 +52,7 @@ PUT /tasks/:id – Update a task (e.g., mark as complete, edit text).
 DELETE /tasks/:id – Delete a task.
 
 Testing Instructions
+
 1. Register a new user
 Open http://localhost:3000/register
 Enter a username and password, then click Register
